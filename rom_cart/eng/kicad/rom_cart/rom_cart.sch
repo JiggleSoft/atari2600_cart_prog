@@ -1,0 +1,437 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Atari 2600 Budget ROM Cartridge"
+Date ""
+Rev "0.0.1"
+Comp "JiggleSoft"
+Comment1 "https://github.com/JiggleSoft/atari2600_cart_prog"
+Comment2 "CC Attribution 3.0 Unported"
+Comment3 "http://creativecommons.org/licenses/by/3.0/"
+Comment4 "Justin Lane (atari2600@jigglesoft.co.uk)"
+$EndDescr
+$Comp
+L Microchip_Parallel_Flash:SST39SF040-70-4C-NHE U1
+U 1 1 5C520C1F
+P 5900 3800
+F 0 "U1" H 5900 5267 50  0000 C CNN
+F 1 "SST39SF040-70-4C-NHE" H 5900 5176 50  0000 C CNN
+F 2 "" H 5900 4100 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf" H 5900 4100 50  0001 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C520D1A
+P 6900 2850
+F 0 "C1" H 7015 2896 50  0000 L CNN
+F 1 "0.1uF" H 7015 2805 50  0000 L CNN
+F 2 "" H 6938 2700 50  0001 C CNN
+F 3 "~" H 6900 2850 50  0001 C CNN
+F 4 "20%" H 6900 2850 50  0001 C CNN "Tolerance"
+F 5 "16V" H 6900 2850 50  0001 C CNN "Voltage"
+	1    6900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3000 6900 3200
+Wire Wire Line
+	6900 2700 6500 2700
+Wire Wire Line
+	6900 4800 6900 5000
+$Comp
+L power:GND #PWR?
+U 1 1 5C520E3F
+P 6900 5000
+F 0 "#PWR?" H 6900 4750 50  0001 C CNN
+F 1 "GND" H 6905 4827 50  0000 C CNN
+F 2 "" H 6900 5000 50  0001 C CNN
+F 3 "" H 6900 5000 50  0001 C CNN
+	1    6900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4800 6500 4800
+Wire Wire Line
+	6900 2700 6900 2400
+Connection ~ 6900 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5C520F9D
+P 6900 3200
+F 0 "#PWR?" H 6900 2950 50  0001 C CNN
+F 1 "GND" H 6905 3027 50  0000 C CNN
+F 2 "" H 6900 3200 50  0001 C CNN
+F 3 "" H 6900 3200 50  0001 C CNN
+	1    6900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C520FED
+P 6900 2400
+F 0 "#PWR?" H 6900 2250 50  0001 C CNN
+F 1 "+5V" H 6915 2573 50  0000 C CNN
+F 2 "" H 6900 2400 50  0001 C CNN
+F 3 "" H 6900 2400 50  0001 C CNN
+	1    6900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C5211E0
+P 4650 4800
+F 0 "R1" V 4443 4800 50  0000 C CNN
+F 1 "10K" V 4534 4800 50  0000 C CNN
+F 2 "" V 4580 4800 50  0001 C CNN
+F 3 "~" H 4650 4800 50  0001 C CNN
+	1    4650 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 4800 4800 4800
+Wire Wire Line
+	4500 4800 4100 4800
+Wire Wire Line
+	4100 4800 4100 4650
+$Comp
+L power:+5V #PWR?
+U 1 1 5C5213C2
+P 4100 4650
+F 0 "#PWR?" H 4100 4500 50  0001 C CNN
+F 1 "+5V" H 4115 4823 50  0000 C CNN
+F 2 "" H 4100 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C5215FC
+P 2000 4600
+F 0 "R?" V 1793 4600 50  0000 C CNN
+F 1 "10K" V 1884 4600 50  0000 C CNN
+F 2 "" V 1930 4600 50  0001 C CNN
+F 3 "~" H 2000 4600 50  0001 C CNN
+	1    2000 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 4600 1450 4600
+Wire Wire Line
+	1450 4600 1450 4400
+$Comp
+L power:+5V #PWR?
+U 1 1 5C521605
+P 1450 4400
+F 0 "#PWR?" H 1450 4250 50  0001 C CNN
+F 1 "+5V" H 1465 4573 50  0000 C CNN
+F 2 "" H 1450 4400 50  0001 C CNN
+F 3 "" H 1450 4400 50  0001 C CNN
+	1    1450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C5216C7
+P 4650 5350
+F 0 "R?" V 4443 5350 50  0000 C CNN
+F 1 "10K" V 4534 5350 50  0000 C CNN
+F 2 "" V 4580 5350 50  0001 C CNN
+F 3 "~" H 4650 5350 50  0001 C CNN
+	1    4650 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 5350 4100 5350
+Wire Wire Line
+	4100 5350 4100 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5C52182F
+P 4100 5500
+F 0 "#PWR?" H 4100 5250 50  0001 C CNN
+F 1 "GND" H 4105 5327 50  0000 C CNN
+F 2 "" H 4100 5500 50  0001 C CNN
+F 3 "" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C521B1E
+P 1850 5500
+F 0 "D?" H 1850 5716 50  0000 C CNN
+F 1 "D" H 1850 5625 50  0000 C CNN
+F 2 "" H 1850 5500 50  0001 C CNN
+F 3 "~" H 1850 5500 50  0001 C CNN
+	1    1850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x04 SW?
+U 1 1 5C521E77
+P 5500 1800
+F 0 "SW?" H 5500 2267 50  0000 C CNN
+F 1 "SW_DIP_x04" H 5500 2176 50  0000 C CNN
+F 2 "" H 5500 1800 50  0001 C CNN
+F 3 "" H 5500 1800 50  0001 C CNN
+	1    5500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x04 SW?
+U 1 1 5C521F83
+P 3400 1800
+F 0 "SW?" H 3400 2267 50  0000 C CNN
+F 1 "SW_DIP_x04" H 3400 2176 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07 RN?
+U 1 1 5C52205C
+P 3400 4100
+F 0 "RN?" V 3917 4100 50  0000 C CNN
+F 1 "R_Network07" V 3826 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 3875 4100 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4400 2800 4600
+$Comp
+L power:GND #PWR?
+U 1 1 5C52219D
+P 2800 4600
+F 0 "#PWR?" H 2800 4350 50  0001 C CNN
+F 1 "GND" H 2805 4427 50  0000 C CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4400 3200 4400
+Wire Wire Line
+	3600 3800 4700 3800
+Wire Wire Line
+	5300 3900 4800 3900
+Wire Wire Line
+	3600 4000 4900 4000
+Wire Wire Line
+	5300 4100 5000 4100
+Wire Wire Line
+	3600 4200 4600 4200
+Wire Wire Line
+	5300 4300 4500 4300
+Wire Wire Line
+	3600 4400 4400 4400
+$Comp
+L Device:R R?
+U 1 1 5C523719
+P 3650 2300
+F 0 "R?" V 3443 2300 50  0000 C CNN
+F 1 "R" V 3534 2300 50  0000 C CNN
+F 2 "" V 3580 2300 50  0001 C CNN
+F 3 "~" H 3650 2300 50  0001 C CNN
+	1    3650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C52382A
+P 3050 2300
+F 0 "D?" H 3041 2516 50  0000 C CNN
+F 1 "LED" H 3041 2425 50  0000 C CNN
+F 2 "" H 3050 2300 50  0001 C CNN
+F 3 "~" H 3050 2300 50  0001 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L JiggleSoft_74xGxx:74AHCT1G04 U?
+U 1 1 5C528A42
+P 2750 5500
+F 0 "U?" H 2700 5750 50  0000 L CNN
+F 1 "74AHCT1G04" H 2550 5250 50  0000 L CNN
+F 2 "" H 2750 5750 50  0001 C CNN
+F 3 "" H 2750 5750 50  0001 C CNN
+	1    2750 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 3800 0    50   ~ 0
+TODO: Add Cartridge Edge Connector
+Wire Wire Line
+	5200 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 4100
+Connection ~ 5000 4100
+Wire Wire Line
+	5000 4100 3600 4100
+Wire Wire Line
+	5200 1800 4900 1800
+Wire Wire Line
+	4900 1800 4900 4000
+Connection ~ 4900 4000
+Wire Wire Line
+	4900 4000 5300 4000
+Wire Wire Line
+	5200 1700 4800 1700
+Wire Wire Line
+	4800 1700 4800 3900
+Connection ~ 4800 3900
+Wire Wire Line
+	4800 3900 3600 3900
+Wire Wire Line
+	5200 1600 4700 1600
+Wire Wire Line
+	4700 1600 4700 3800
+Connection ~ 4700 3800
+Wire Wire Line
+	4700 3800 5300 3800
+Wire Wire Line
+	5800 1600 5900 1600
+Wire Wire Line
+	5900 1600 5900 1700
+Wire Wire Line
+	5900 1900 5800 1900
+Wire Wire Line
+	5800 1800 5900 1800
+Connection ~ 5900 1800
+Wire Wire Line
+	5900 1800 5900 1900
+Wire Wire Line
+	5800 1700 5900 1700
+Connection ~ 5900 1700
+Wire Wire Line
+	5900 1700 5900 1800
+Wire Wire Line
+	5900 1600 6400 1600
+Wire Wire Line
+	6400 1600 6400 1300
+$Comp
+L power:+5V #PWR?
+U 1 1 5C52CB54
+P 6400 1300
+F 0 "#PWR?" H 6400 1150 50  0001 C CNN
+F 1 "+5V" H 6415 1473 50  0000 C CNN
+F 2 "" H 6400 1300 50  0001 C CNN
+F 3 "" H 6400 1300 50  0001 C CNN
+	1    6400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1600 4600 1600
+Wire Wire Line
+	4600 1600 4600 4200
+Connection ~ 4600 4200
+Wire Wire Line
+	4600 4200 5300 4200
+Wire Wire Line
+	3700 1700 4500 1700
+Wire Wire Line
+	4500 1700 4500 4300
+Connection ~ 4500 4300
+Wire Wire Line
+	4500 4300 3600 4300
+Wire Wire Line
+	3700 1800 4400 1800
+Wire Wire Line
+	4400 1800 4400 4400
+Connection ~ 4400 4400
+Wire Wire Line
+	4400 4400 5300 4400
+Wire Wire Line
+	2500 2300 2500 2500
+$Comp
+L power:GND #PWR?
+U 1 1 5C533D3A
+P 2500 2500
+F 0 "#PWR?" H 2500 2250 50  0001 C CNN
+F 1 "GND" H 2505 2327 50  0000 C CNN
+F 2 "" H 2500 2500 50  0001 C CNN
+F 3 "" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2300 2900 2300
+Wire Wire Line
+	3500 2300 3200 2300
+Wire Wire Line
+	3100 1600 3000 1600
+Wire Wire Line
+	3000 1600 3000 1700
+Wire Wire Line
+	3000 1900 3100 1900
+Wire Wire Line
+	3100 1700 3000 1700
+Connection ~ 3000 1700
+Wire Wire Line
+	3000 1700 3000 1800
+Wire Wire Line
+	3100 1800 3000 1800
+Connection ~ 3000 1800
+Wire Wire Line
+	3000 1800 3000 1900
+Connection ~ 5900 1600
+Wire Wire Line
+	3000 1600 2500 1600
+Wire Wire Line
+	2500 1600 2500 1300
+$Comp
+L power:+5V #PWR?
+U 1 1 5C53F0FE
+P 2500 1300
+F 0 "#PWR?" H 2500 1150 50  0001 C CNN
+F 1 "+5V" H 2515 1473 50  0000 C CNN
+F 2 "" H 2500 1300 50  0001 C CNN
+F 3 "" H 2500 1300 50  0001 C CNN
+	1    2500 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 1600
+Wire Wire Line
+	3700 1900 4200 1900
+Wire Wire Line
+	4200 1900 4200 2300
+Wire Wire Line
+	4200 2300 3800 2300
+Text Notes 8500 3800 0    50   ~ 0
+TODO: Add Programming Edge Connector
+Text Notes 8200 1400 0    100  ~ 20
+THIS IS WORK IN PROGRESS\nAND MAY NOT REPRESENT \nTHE DESIGN OF A RELESE VERSION
+Text Notes 5200 900  0    50   ~ 0
+Manual selection of one of sixteen sectors.
+Text Notes 1550 1050 0    50   ~ 0
+Optional selection of one of 8 master sectors either on PCB or external switches.
+$Comp
+L Device:R R?
+U 1 1 5C54A33E
+P 5100 5000
+F 0 "R?" V 4893 5000 50  0000 C CNN
+F 1 "R" V 4984 5000 50  0000 C CNN
+F 2 "" V 5030 5000 50  0001 C CNN
+F 3 "~" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 5050 5350 5400
+Wire Wire Line
+	4850 4900 4850 5000
+Wire Wire Line
+	4850 5000 3550 5000
+Wire Wire Line
+	3550 5000 3550 5450
+Wire Wire Line
+	3550 5450 3350 5450
+$EndSCHEMATC
