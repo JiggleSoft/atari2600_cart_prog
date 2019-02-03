@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_ATARI_2600_CART_CARD
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_2600_CART_CARD_0
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_2600_CART_EDGE
+D Connector, double row, 02x12, PCB edge connector
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_2600_CART_EDGE_0
+D Connector, double row, 02x12, PCB edge connector
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_7800_CART_CARD
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_7800_CART_CARD_0
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_7800_CART_EDGE
+D Connector, double row, 02x18, PCB edge connector
+K connector
+$ENDCMP
+#
+$CMP CONN_ATARI_7800_CART_EDGE_0
+D Connector, double row, 02x18, PCB edge connector
+K connector
+$ENDCMP
+#
+#End Doc Library
