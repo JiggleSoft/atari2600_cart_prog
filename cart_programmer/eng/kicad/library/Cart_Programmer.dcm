@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_ATARI_CART_PROGRAMMER
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+#End Doc Library

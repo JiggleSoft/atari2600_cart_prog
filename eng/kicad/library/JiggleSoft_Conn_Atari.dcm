@@ -5,7 +5,7 @@ D Connector, double row, 02x12, PCB card
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_2600_CART_CARD_0
+$CMP CONN_ATARI_2600_CART_CARD_2
 D Connector, double row, 02x12, PCB card
 K connector
 $ENDCMP
@@ -15,7 +15,7 @@ D Connector, double row, 02x12, PCB edge connector
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_2600_CART_EDGE_0
+$CMP CONN_ATARI_2600_CART_EDGE_2
 D Connector, double row, 02x12, PCB edge connector
 K connector
 $ENDCMP
@@ -25,7 +25,7 @@ D Connector, double row, 02x18, PCB card
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_7800_CART_CARD_0
+$CMP CONN_ATARI_7800_CART_CARD_2
 D Connector, double row, 02x18, PCB card
 K connector
 $ENDCMP
@@ -35,7 +35,7 @@ D Connector, double row, 02x18, PCB edge connector
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_7800_CART_EDGE_0
+$CMP CONN_ATARI_7800_CART_EDGE_2
 D Connector, double row, 02x18, PCB edge connector
 K connector
 $ENDCMP
