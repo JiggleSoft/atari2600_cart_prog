@@ -496,6 +496,54 @@ Text Label 9400 4600 0    50   ~ 0
 D6
 Text Label 10400 4600 0    50   ~ 0
 D7
+Text Notes 3800 7150 0    50   ~ 0
+A0-A7,A8-A11,A12-A15,A16-A19,A20-A23 = 24-bit (3 bytes)\nD0-D7 = 8-bit (1 byte)\nCS\nR/-W\nHALT\n02CLK\nAUDL\nAUDR\nHALT\nIRQ\nPWR\nGND\n
+Text Label 7700 3600 0    50   ~ 0
+A8
+Text Label 7700 3700 0    50   ~ 0
+A9
+Text Label 7700 3800 0    50   ~ 0
+A11
+Text Label 7700 3900 0    50   ~ 0
+A10
+NoConn ~ 4300 4700
+NoConn ~ 4400 4700
+NoConn ~ 10300 3800
+NoConn ~ 10300 3900
+NoConn ~ 10300 4000
+NoConn ~ 10300 4100
+Wire Wire Line
+	10300 3000 10800 3000
+Wire Wire Line
+	10800 3100 10300 3100
+Wire Wire Line
+	10800 3200 10300 3200
+Wire Wire Line
+	10800 3300 10300 3300
+Wire Wire Line
+	10800 3400 10300 3400
+Wire Wire Line
+	10800 3500 10300 3500
+Wire Wire Line
+	10800 3600 10300 3600
+Wire Wire Line
+	10800 3700 10300 3700
+Entry Wire Line
+	10900 2900 10800 3000
+Entry Wire Line
+	10900 3000 10800 3100
+Entry Wire Line
+	10900 3100 10800 3200
+Entry Wire Line
+	10900 3200 10800 3300
+Entry Wire Line
+	10900 3300 10800 3400
+Entry Wire Line
+	10900 3400 10800 3500
+Entry Wire Line
+	10900 3500 10800 3600
+Entry Wire Line
+	10900 3600 10800 3700
 Wire Bus Line
 	6200 4300 6200 5600
 Wire Bus Line
