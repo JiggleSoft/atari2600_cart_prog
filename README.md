@@ -6,7 +6,7 @@ Atari 2600 Budget Cartridges and Budget Programmer.
 Home on GitHub (https://github.com/JiggleSoft/atari2600_cart_prog)
 ---
 ### Project Status
- * This project is still in the research stage.
+ * This project is in the initial design stage to allow for testing.
 ---
 ### Project Contents Summary
  * Atari 2600 Budget ROM Cartridge.
@@ -23,7 +23,12 @@ Home on GitHub (https://github.com/JiggleSoft/atari2600_cart_prog)
    * Target of < $15.00 cost each (PCB and components).
    * USB CDC Serial Port connection to PC.
    * Budget Cartridges (both of those above) can be plugged in directly for programming Atari 2600 ROM images.
-   * If possible will be able to allow dumping other Atari 2600 cartridge ROMs.
+   * Budget Cartridges (both of those above) can be plugged in directly for dumping the Atari 2600 ROM images.
+   * Nice to have (if possible):-
+     * Allow dumping other Atari 2600 cartridge ROMs.
+     * Allow dumping Atari 7800 cartridge ROMs.
+     * Allow dumping other platform ROMs.
+	 * Allow programming other platforms cartridges.
  * Note:
    * The PLD will likely require a separate programmer to flash it.
 ---
@@ -32,3 +37,7 @@ Home on GitHub (https://github.com/JiggleSoft/atari2600_cart_prog)
 ---
 ### Repository Contents
  * doc/ --- Documentation
+ * eng/ --- Shared engineering files.
+ * rom_cart/ - Budget ROM cartridge (WIP).
+ * cart_programmer/ -- Cartridge Programmer related files (WIP).
+ * internal_rom/ -- Investigation into the Atari 2600 internal ROM that was never used (incomplete).
