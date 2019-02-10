@@ -349,17 +349,6 @@ Text Label 6900 4400 0    50   ~ 0
 D7
 Text Label 6550 5500 0    50   ~ 0
 DATA_BUS
-$Comp
-L JiggleSoft_Conn_Atari:CONN_ATARI_2600_CART_CARD_2 J1
-U 1 1 5C5B6E67
-P 10950 3550
-F 0 "J1" V 12550 3600 50  0000 R CNN
-F 1 "CONN_ATARI_2600_CART_CARD_2" V 12450 4100 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Horizontal" H 10950 2500 50  0001 C CNN
-F 3 "" H 10950 2500 50  0001 C CNN
-	1    10950 3550
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10650 2200 9950 2200
 Wire Wire Line
@@ -511,23 +500,10 @@ Wire Wire Line
 	10650 4900 10550 4900
 Wire Wire Line
 	10550 4900 10550 5000
-Wire Wire Line
-	10550 5000 9650 5000
 Text Notes 9750 4750 0    50   ~ 0
 POWER_GROUND
 Text Notes 9750 4950 0    50   ~ 0
 POWER_POS_VOLT
-$Comp
-L JiggleSoft_Conn_Atari:CONN_A2K6_FLASH_CART_CARD_2 J2
-U 1 1 5C5CE9ED
-P 4300 7150
-F 0 "J2" H 4295 6928 50  0000 C CNN
-F 1 "CONN_A2K6_FLASH_CART_CARD_2" H 4295 6837 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Horizontal" H 4300 6100 50  0001 C CNN
-F 3 "" H 4300 6100 50  0001 C CNN
-	1    4300 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 2600 5000 2600
 Entry Wire Line
@@ -776,8 +752,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 5600 3800 3700
 Connection ~ 3800 3700
-Wire Wire Line
-	4200 5300 3400 5300
 Text Label 3500 5300 0    50   ~ 0
 CE
 Wire Wire Line
@@ -786,18 +760,6 @@ Wire Wire Line
 	5100 5300 5100 4800
 Wire Wire Line
 	5100 4800 5300 4800
-Wire Bus Line
-	2200 2100 3800 2100
-Wire Bus Line
-	10250 3800 10250 4600
-Wire Bus Line
-	7300 3800 7300 5500
-Wire Bus Line
-	9850 2300 9850 3500
-Wire Bus Line
-	4900 1900 4900 3600
-Wire Bus Line
-	4600 1600 4600 4300
 Text Label 2700 1900 1    50   ~ 0
 A12
 Text Label 2600 1900 1    50   ~ 0
@@ -812,4 +774,175 @@ Text Label 2200 1900 1    50   ~ 0
 A17
 Text Label 2100 1900 1    50   ~ 0
 A18
+$Comp
+L JiggleSoft_Conn_Atari:CONN_A2K6_CART_CARD J?
+U 1 1 5C620ECB
+P 10950 3550
+F 0 "J?" V 10991 3372 50  0000 R CNN
+F 1 "CONN_A2K6_CART_CARD" V 10900 3372 50  0000 R CNN
+F 2 "" H 10950 2500 50  0001 C CNN
+F 3 "" H 10950 2500 50  0001 C CNN
+	1    10950 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 5000 10550 5000
+$Comp
+L JiggleSoft_Conn_Atari:CONN_512K_CART_CARD J?
+U 1 1 5C63258F
+P 1200 5300
+F 0 "J?" V 3365 5381 50  0000 C CNN
+F 1 "CONN_512K_CART_CARD" V 3274 5381 50  0000 C CNN
+F 2 "" H 1750 5300 50  0001 C CNN
+F 3 "" H 1750 5300 50  0001 C CNN
+	1    1200 5300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C63875C
+P 3000 4650
+F 0 "R?" V 2793 4650 50  0000 C CNN
+F 1 "R" V 2884 4650 50  0000 C CNN
+F 2 "" V 2930 4650 50  0001 C CNN
+F 3 "~" H 3000 4650 50  0001 C CNN
+	1    3000 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 5300 4200 5300
+Wire Wire Line
+	1500 3350 2200 3350
+Wire Wire Line
+	2200 3450 1500 3450
+Wire Wire Line
+	2200 3550 1500 3550
+Wire Wire Line
+	2200 3650 1500 3650
+Wire Wire Line
+	2200 3750 1500 3750
+Wire Wire Line
+	2200 3850 1500 3850
+Wire Wire Line
+	2200 3950 1500 3950
+Wire Wire Line
+	1500 4050 2200 4050
+Wire Wire Line
+	2200 4150 1500 4150
+Wire Wire Line
+	2200 4250 1500 4250
+Wire Wire Line
+	2200 4350 1500 4350
+Wire Wire Line
+	2200 4450 1500 4450
+Entry Wire Line
+	2300 3450 2200 3350
+Entry Wire Line
+	2300 3550 2200 3450
+Entry Wire Line
+	2300 3650 2200 3550
+Entry Wire Line
+	2300 3750 2200 3650
+Entry Wire Line
+	2300 3850 2200 3750
+Entry Wire Line
+	2300 3950 2200 3850
+Entry Wire Line
+	2300 4050 2200 3950
+Entry Wire Line
+	2300 4150 2200 4050
+Entry Wire Line
+	2300 4250 2200 4150
+Entry Wire Line
+	2300 4350 2200 4250
+Entry Wire Line
+	2300 4450 2200 4350
+Entry Wire Line
+	2300 4550 2200 4450
+Text Label 1900 3350 2    50   ~ 0
+A0
+Text Label 1900 3450 2    50   ~ 0
+A1
+Text Label 1900 3550 2    50   ~ 0
+A2
+Text Label 1900 3650 2    50   ~ 0
+A3
+Text Label 1900 3750 2    50   ~ 0
+A4
+Text Label 1900 3850 2    50   ~ 0
+A5
+Text Label 1900 3950 2    50   ~ 0
+A6
+Text Label 1900 4050 2    50   ~ 0
+A7
+Text Label 1900 4150 2    50   ~ 0
+A8
+Text Label 1900 4250 2    50   ~ 0
+A9
+Text Label 1900 4350 2    50   ~ 0
+A10
+Text Label 1900 4450 2    50   ~ 0
+A11
+Text Notes 3800 7000 2    50   ~ 0
+ADDR_BUS_4KB
+Wire Wire Line
+	1500 4550 2200 4550
+Wire Wire Line
+	2200 4650 1500 4650
+Wire Wire Line
+	2200 4750 1500 4750
+Wire Wire Line
+	2200 4850 1500 4850
+Wire Wire Line
+	2200 4950 1500 4950
+Wire Wire Line
+	2200 5050 1500 5050
+Wire Wire Line
+	2200 5150 1500 5150
+Entry Wire Line
+	2300 4650 2200 4550
+Entry Wire Line
+	2300 4750 2200 4650
+Entry Wire Line
+	2300 4850 2200 4750
+Entry Wire Line
+	2300 4950 2200 4850
+Entry Wire Line
+	2300 5050 2200 4950
+Entry Wire Line
+	2300 5150 2200 5050
+Entry Wire Line
+	2300 5250 2200 5150
+Text Label 1900 4550 2    50   ~ 0
+A0
+Text Label 1900 4650 2    50   ~ 0
+A1
+Text Label 1900 4750 2    50   ~ 0
+A2
+Text Label 1900 4850 2    50   ~ 0
+A3
+Text Label 1900 4950 2    50   ~ 0
+A4
+Text Label 1900 5050 2    50   ~ 0
+A5
+Text Label 1900 5150 2    50   ~ 0
+A6
+Text Label 1900 5250 2    50   ~ 0
+A7
+Wire Bus Line
+	5350 6200 5350 7400
+Wire Bus Line
+	2200 2100 3800 2100
+Wire Bus Line
+	10250 3800 10250 4600
+Wire Bus Line
+	7300 3800 7300 5500
+Wire Bus Line
+	9850 2300 9850 3500
+Wire Bus Line
+	4900 1900 4900 3600
+Wire Bus Line
+	4600 1600 4600 4300
+Wire Bus Line
+	2300 3450 2300 4650
 $EndSCHEMATC

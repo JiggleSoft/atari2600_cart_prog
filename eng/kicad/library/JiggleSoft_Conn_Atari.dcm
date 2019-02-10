@@ -1,62 +1,62 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CONN_A2K6_FLASH_CART_CARD
-D Connector, double row, 02x12, PCB card
-K connector
-$ENDCMP
-#
-$CMP CONN_A2K6_FLASH_CART_CARD_2
-D Connector, double row, 02x12, PCB card
-K connector
-$ENDCMP
-#
-$CMP CONN_A2K6_FLASH_CART_EDGE
-D Connector, double row, 02x12, PCB edge connector
-K connector
-$ENDCMP
-#
-$CMP CONN_A2K6_FLASH_CART_EDGE_2
-D Connector, double row, 02x12, PCB edge connector
-K connector
-$ENDCMP
-#
-$CMP CONN_ATARI_2600_CART_CARD
-D Connector, double row, 02x12, PCB card
-K connector
-$ENDCMP
-#
-$CMP CONN_ATARI_2600_CART_CARD_2
-D Connector, double row, 02x12, PCB card
-K connector
-$ENDCMP
-#
-$CMP CONN_ATARI_2600_CART_EDGE
-D Connector, double row, 02x12, PCB edge connector
-K connector
-$ENDCMP
-#
-$CMP CONN_ATARI_2600_CART_EDGE_2
-D Connector, double row, 02x12, PCB edge connector
-K connector
-$ENDCMP
-#
-$CMP CONN_ATARI_7800_CART_CARD
+$CMP CONN_512K_CART_CARD
 D Connector, double row, 02x18, PCB card
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_7800_CART_CARD_2
+$CMP CONN_512K_CART_CARD_PHY
 D Connector, double row, 02x18, PCB card
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_7800_CART_EDGE
-D Connector, double row, 02x18, PCB edge connector
+$CMP CONN_512K_CART_SOCKET
+D Connector, double row, 02x18, PCB card
 K connector
 $ENDCMP
 #
-$CMP CONN_ATARI_7800_CART_EDGE_2
-D Connector, double row, 02x18, PCB edge connector
+$CMP CONN_512K_CART_SOCKET_PHY
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_CARD
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_CARD_PHY
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_SOCKET
+D Connector, double row, 02x12, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_SOCKET_PHY
+D Connector, double row, 02x12, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_CARD
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_CARD_PHY
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_SOCKET
+D Connector, double row, 02x18, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_SOCKET_PHY
+D Connector, double row, 02x18, PCB socket
 K connector
 $ENDCMP
 #
