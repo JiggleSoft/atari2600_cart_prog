@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SST39SF040-70-4C-NHE
+D Microchip Silicon Storage Technology 512K x 8 Flash ROM 4.5V-5.5V
+K 512KB Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf
+$ENDCMP
+#
+#End Doc Library

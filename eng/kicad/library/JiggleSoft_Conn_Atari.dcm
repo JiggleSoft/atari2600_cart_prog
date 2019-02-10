@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_512K_CART_CARD
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_512K_CART_CARD_PHY
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_512K_CART_SOCKET
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_512K_CART_SOCKET_PHY
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_CARD
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_CARD_PHY
+D Connector, double row, 02x12, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_SOCKET
+D Connector, double row, 02x12, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A2K6_CART_SOCKET_PHY
+D Connector, double row, 02x12, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_CARD
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_CARD_PHY
+D Connector, double row, 02x18, PCB card
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_SOCKET
+D Connector, double row, 02x18, PCB socket
+K connector
+$ENDCMP
+#
+$CMP CONN_A7K8_CART_SOCKET_PHY
+D Connector, double row, 02x18, PCB socket
+K connector
+$ENDCMP
+#
+#End Doc Library

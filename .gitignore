@@ -11,3 +11,6 @@ tmp/**/*
 *.tmp
 *.bak
 *.swp
+
+**/eng/**/*.bck
+**/eng/**/*-cache.lib
