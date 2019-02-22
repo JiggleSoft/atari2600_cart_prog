@@ -1,21 +1,20 @@
 EESchema Schematic File Version 4
-LIBS:rom_cart-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Atari 2600 Budget ROM Cartridge"
-Date "2019-02-11"
-Rev "0.1.0"
+Date "2019-02-22"
+Rev "0.1.2"
 Comp "JiggleSoft"
 Comment1 "https://github.com/JiggleSoft/atari2600_cart_prog"
-Comment2 "CC Attribution 3.0 Unported"
-Comment3 "http://creativecommons.org/licenses/by/3.0/"
+Comment2 "Creative Commons Attribution 4.0 International Licence"
+Comment3 "http://creativecommons.org/licenses/by/4.0/"
 Comment4 "Justin Lane (atari2600@jigglesoft.co.uk)"
 $EndDescr
 $Comp
-L Microchip_Parallel_Flash:SST39SF040-70-4C-NHE U1
+L Memory_Flash_Parallel_Microchip:SST39SF040-70-4C-NHE U1
 U 1 1 5C520C1F
 P 8200 4700
 F 0 "U1" H 8200 6167 50  0000 C CNN
@@ -142,17 +141,6 @@ F 1 "LED" H 7541 2125 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 2000 50  0001 C CNN
 F 3 "~" H 7550 2000 50  0001 C CNN
 	1    7550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L JiggleSoft_74xGxx:74AHCT1G04 U2
-U 1 1 5C528A42
-P 3900 5000
-F 0 "U2" H 3850 5250 50  0000 L CNN
-F 1 "74AHCT1G04" H 3700 4750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3900 5250 50  0001 C CNN
-F 3 "" H 3900 5250 50  0001 C CNN
-	1    3900 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -309,29 +297,29 @@ D7
 Text Label 8650 6100 0    50   ~ 0
 DATA_BUS
 Wire Wire Line
-	1900 3700 2600 3700
+	1300 3700 2600 3700
 Wire Wire Line
-	2600 3800 1900 3800
+	2600 3800 1300 3800
 Wire Wire Line
-	2600 3900 1900 3900
+	2600 3900 1300 3900
 Wire Wire Line
-	2600 4000 1900 4000
+	2600 4000 1300 4000
 Wire Wire Line
-	2600 4100 1900 4100
+	2600 4100 1300 4100
 Wire Wire Line
-	2600 4200 1900 4200
+	2600 4200 1300 4200
 Wire Wire Line
-	2600 4300 1900 4300
+	2600 4300 1300 4300
 Wire Wire Line
-	1900 4400 2600 4400
+	1300 4400 2600 4400
 Wire Wire Line
-	2600 4500 1900 4500
+	2600 4500 1300 4500
 Wire Wire Line
-	2600 4600 1900 4600
+	2600 4600 1300 4600
 Wire Wire Line
-	2600 4700 1900 4700
+	2600 4700 1300 4700
 Wire Wire Line
-	2600 4800 1900 4800
+	2600 4800 1300 4800
 Entry Wire Line
 	2700 4700 2600 4800
 Entry Wire Line
@@ -356,22 +344,6 @@ Entry Wire Line
 	2700 3700 2600 3800
 Entry Wire Line
 	2700 3600 2600 3700
-Wire Wire Line
-	1900 5200 2200 5200
-Wire Wire Line
-	2200 5300 1900 5300
-Wire Wire Line
-	2200 5400 1900 5400
-Wire Wire Line
-	2200 5500 1900 5500
-Wire Wire Line
-	2200 5600 1900 5600
-Wire Wire Line
-	2200 5700 1900 5700
-Wire Wire Line
-	2200 5800 1900 5800
-Wire Wire Line
-	1900 5900 2200 5900
 Entry Wire Line
 	2300 5300 2200 5200
 Entry Wire Line
@@ -388,52 +360,52 @@ Entry Wire Line
 	2300 5900 2200 5800
 Entry Wire Line
 	2300 6000 2200 5900
-Text Label 2300 3700 2    50   ~ 0
+Text Label 1600 3700 2    50   ~ 0
 A0
-Text Label 2300 3800 2    50   ~ 0
+Text Label 1600 3800 2    50   ~ 0
 A1
-Text Label 2300 3900 2    50   ~ 0
+Text Label 1600 3900 2    50   ~ 0
 A2
-Text Label 2300 4000 2    50   ~ 0
+Text Label 1600 4000 2    50   ~ 0
 A3
-Text Label 2300 4100 2    50   ~ 0
+Text Label 1600 4100 2    50   ~ 0
 A4
-Text Label 2300 4200 2    50   ~ 0
+Text Label 1600 4200 2    50   ~ 0
 A5
-Text Label 2300 4300 2    50   ~ 0
+Text Label 1600 4300 2    50   ~ 0
 A6
-Text Label 2300 4400 2    50   ~ 0
+Text Label 1600 4400 2    50   ~ 0
 A7
-Text Label 2300 4500 2    50   ~ 0
+Text Label 1600 4500 2    50   ~ 0
 A8
-Text Label 2300 4600 2    50   ~ 0
+Text Label 1600 4600 2    50   ~ 0
 A9
-Text Label 2300 4700 2    50   ~ 0
+Text Label 1600 4700 2    50   ~ 0
 A10
-Text Label 2300 4800 2    50   ~ 0
+Text Label 1600 4800 2    50   ~ 0
 A11
-Text Label 2100 5200 2    50   ~ 0
+Text Label 1600 5200 2    50   ~ 0
 D0
-Text Label 2100 5300 2    50   ~ 0
+Text Label 1600 5300 2    50   ~ 0
 D1
-Text Label 2100 5400 2    50   ~ 0
+Text Label 1600 5400 2    50   ~ 0
 D2
-Text Label 2100 5500 2    50   ~ 0
+Text Label 1600 5500 2    50   ~ 0
 D3
-Text Label 2100 5600 2    50   ~ 0
+Text Label 1600 5600 2    50   ~ 0
 D4
-Text Label 2100 5700 2    50   ~ 0
+Text Label 1600 5700 2    50   ~ 0
 D5
-Text Label 2100 5800 2    50   ~ 0
+Text Label 1600 5800 2    50   ~ 0
 D6
-Text Label 2100 5900 2    50   ~ 0
+Text Label 1600 5900 2    50   ~ 0
 D7
-Text Label 2200 5000 2    50   ~ 0
+Text Label 1600 5000 2    50   ~ 0
 CS
 Wire Wire Line
-	1900 6100 2100 6100
+	1300 6100 2100 6100
 Wire Wire Line
-	1900 6300 2100 6300
+	1300 6300 2100 6300
 Wire Wire Line
 	2100 6300 2100 6100
 Connection ~ 2100 6300
@@ -665,18 +637,7 @@ A17
 Text Label 8400 2000 1    50   ~ 0
 A18
 $Comp
-L JiggleSoft_Conn_Atari:CONN_A2K6_CART_CARD J1
-U 1 1 5C620ECB
-P 1600 5050
-F 0 "J1" V 3200 5100 50  0000 R CNN
-F 1 "CONN_A2K6_CART_CARD" V 3100 5750 50  0000 R CNN
-F 2 "JiggleSoft_Conn_Atari:Atari_2600_Cartridge_2x12_PCB_Edge" H 1600 4000 50  0001 C CNN
-F 3 "" H 1600 4000 50  0001 C CNN
-	1    1600 5050
-	0    1    -1   0   
-$EndComp
-$Comp
-L JiggleSoft_Conn_Atari:CONN_512K_CART_CARD J2
+L Conn_Atari_JiggleSoft:CONN_512K_CART_CARD J2
 U 1 1 5C63258F
 P 3350 900
 F 0 "J2" V 5515 981 50  0000 C CNN
@@ -804,10 +765,12 @@ $Comp
 L Device:R_Pack08 RN1
 U 1 1 5C60B236
 P 6100 4300
-F 0 "RN1" V 5483 4300 50  0000 C CNN
-F 1 "R_Pack08" V 5574 4300 50  0000 C CNN
+F 0 "RN1" V 5600 4300 50  0000 C CNN
+F 1 "10K X 8" V 6500 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_Cat16-8" V 6575 4300 50  0001 C CNN
 F 3 "~" H 6100 4300 50  0001 C CNN
+F 4 "65mW" V 6100 4300 50  0001 C CNN "Power"
+F 5 "<=10%" V 6100 4300 50  0001 C CNN "Tolerance"
 	1    6100 4300
 	0    1    1    0   
 $EndComp
@@ -976,32 +939,32 @@ CE
 $Comp
 L power:GND #PWR0102
 U 1 1 5C94C2E6
-P 3700 5550
-F 0 "#PWR0102" H 3700 5300 50  0001 C CNN
-F 1 "GND" H 3705 5377 50  0000 C CNN
-F 2 "" H 3700 5550 50  0001 C CNN
-F 3 "" H 3700 5550 50  0001 C CNN
-	1    3700 5550
+P 3800 5500
+F 0 "#PWR0102" H 3800 5250 50  0001 C CNN
+F 1 "GND" H 3805 5327 50  0000 C CNN
+F 2 "" H 3800 5500 50  0001 C CNN
+F 3 "" H 3800 5500 50  0001 C CNN
+	1    3800 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 5300 3700 5550
-Text Label 3700 5500 0    50   ~ 0
+	3800 5250 3800 5500
+Text Label 3800 5450 0    50   ~ 0
 VSS
 $Comp
 L power:+5V #PWR0106
 U 1 1 5C95849C
-P 3700 4600
-F 0 "#PWR0106" H 3700 4450 50  0001 C CNN
-F 1 "+5V" H 3715 4773 50  0000 C CNN
-F 2 "" H 3700 4600 50  0001 C CNN
-F 3 "" H 3700 4600 50  0001 C CNN
-	1    3700 4600
+P 3800 4650
+F 0 "#PWR0106" H 3800 4500 50  0001 C CNN
+F 1 "+5V" H 3815 4823 50  0000 C CNN
+F 2 "" H 3800 4650 50  0001 C CNN
+F 3 "" H 3800 4650 50  0001 C CNN
+	1    3800 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 4600 3700 4700
-Text Label 3700 4650 0    50   ~ 0
+	3800 4650 3800 4750
+Text Label 3800 4700 0    50   ~ 0
 VDD
 Wire Wire Line
 	4900 1200 4900 1600
@@ -1022,13 +985,13 @@ ADDR_BUS_4K
 Text Label 3300 2000 3    50   ~ 0
 ADDR_BUS_SECTOR
 Wire Wire Line
-	1900 5000 3200 5000
+	1300 5000 3200 5000
 Wire Bus Line
 	2700 3300 7200 3300
 Wire Wire Line
 	4500 5700 4500 5000
 Wire Wire Line
-	4500 5000 4300 5000
+	4500 5000 4100 5000
 Wire Wire Line
 	4500 5700 7600 5700
 Wire Bus Line
@@ -1044,7 +1007,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 3600 9500 3600
 Wire Wire Line
-	1900 6400 10000 6400
+	1300 6400 10000 6400
 Wire Bus Line
 	2700 2000 2700 3300
 Connection ~ 2700 3300
@@ -1130,8 +1093,6 @@ Wire Bus Line
 Wire Bus Line
 	3400 7050 3400 6700
 Wire Bus Line
-	3400 6700 3550 6700
-Wire Bus Line
 	4100 6700 4100 7050
 Wire Bus Line
 	4100 7050 4050 7050
@@ -1151,21 +1112,90 @@ Wire Bus Line
 Wire Bus Line
 	3550 6700 3550 6600
 Wire Bus Line
-	3550 6600 3950 6600
-Wire Bus Line
 	3950 6600 3950 6700
-Connection ~ 3550 6700
-Wire Bus Line
-	3550 6700 3950 6700
-Connection ~ 3950 6700
-Wire Bus Line
-	3950 6700 4100 6700
 Text Notes 3550 7150 0    50   ~ 0
 FLASH\nROM\nCARTRIDGE\nPCB
 Text Notes 3950 7650 0    50   ~ 0
 12x2 PCB CARD \nEDGE CONNECTOR (CONSOLE)
 Text Notes 4000 6650 0    50   ~ 0
 36x2 PCB CARD\nEDGE CONNECTOR (PROGRAMMING)
+$Comp
+L 74xGxx_JiggleSoft:74HCT1G04 U2
+U 1 1 5C70BC2A
+P 3800 5000
+F 0 "U2" H 3600 5200 50  0000 L CNN
+F 1 "74HCT1G04" H 3850 4800 50  0000 L CNN
+F 2 "" H 3800 5250 50  0001 C CNN
+F 3 "" H 3800 5250 50  0001 C CNN
+	1    3800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Atari_JiggleSoft:CONN_A2K6_CART_CARD J1
+U 1 1 5C620ECB
+P 1000 5050
+F 0 "J1" V 2600 5100 50  0000 R CNN
+F 1 "CONN_A2K6_CART_CARD" V 2500 5750 50  0000 R CNN
+F 2 "JiggleSoft_Conn_Atari:Atari_2600_Cartridge_2x12_PCB_Edge" H 1000 4000 50  0001 C CNN
+F 3 "" H 1000 4000 50  0001 C CNN
+	1    1000 5050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack08 RN2
+U 1 1 5C70BD08
+P 1900 5600
+F 0 "RN2" V 1400 5600 50  0000 C CNN
+F 1 "R470 X 8" V 2300 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_Cat16-8" V 2375 5600 50  0001 C CNN
+F 3 "~" H 1900 5600 50  0001 C CNN
+F 4 "TBD" V 1900 5600 50  0001 C CNN "Power"
+F 5 "5%" V 1900 5600 50  0001 C CNN "Tolerance"
+	1    1900 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 5200 2100 5200
+Wire Wire Line
+	2200 5300 2100 5300
+Wire Wire Line
+	2100 5400 2200 5400
+Wire Wire Line
+	2200 5500 2100 5500
+Wire Wire Line
+	2100 5600 2200 5600
+Wire Wire Line
+	2200 5700 2100 5700
+Wire Wire Line
+	2200 5800 2100 5800
+Wire Wire Line
+	1700 5900 1300 5900
+Wire Wire Line
+	1300 5800 1700 5800
+Wire Wire Line
+	1700 5700 1300 5700
+Wire Wire Line
+	1300 5600 1700 5600
+Wire Wire Line
+	1700 5500 1300 5500
+Wire Wire Line
+	1300 5400 1700 5400
+Wire Wire Line
+	1700 5300 1300 5300
+Wire Wire Line
+	1300 5200 1700 5200
+Text Label 6650 4600 0    50   ~ 0
+~OE
+Text Notes 2150 5150 0    50   ~ 0
+Power TBD edit RN2
+Wire Wire Line
+	2100 5900 2200 5900
+Wire Bus Line
+	3650 6600 3650 6700
+Wire Bus Line
+	3550 6600 3950 6600
+Wire Bus Line
+	3400 6700 4100 6700
 Wire Bus Line
 	2800 1900 3300 1900
 Wire Bus Line
@@ -1184,4 +1214,6 @@ Wire Bus Line
 	6900 3600 6900 5200
 Wire Bus Line
 	1500 2000 2700 2000
+Text Notes 5000 650  0    50   Italic 10
+TODO: Check position of interlock of readily available 36-pin card sockets\n
 $EndSCHEMATC
