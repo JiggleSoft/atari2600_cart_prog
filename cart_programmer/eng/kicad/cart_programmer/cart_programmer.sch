@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 1 1
 Title "Atari 2600 Budget Cartridge Programmer"
 Date ""
-Rev "0.0.1"
+Rev "0.0.2"
 Comp "JiggleSoft"
 Comment1 "https://github.com/JiggleSoft/atari2600_cart_prog"
-Comment2 "CC Attribution 3.0 Unported"
-Comment3 "http://creativecommons.org/licenses/by/3.0/"
+Comment2 "Ceative Commons Attribution 4.0 International Licence"
+Comment3 "http://creativecommons.org/licenses/by/4.0/"
 Comment4 "Justin Lane (atari2600@jigglesoft.co.uk)"
 $EndDescr
 $Comp
@@ -522,7 +522,7 @@ Entry Wire Line
 Entry Wire Line
 	14100 1250 14000 1350
 $Comp
-L JiggleSoft_Conn_Atari:CONN_A7K8_CART_CARD_PHY J2
+L Conn_Atari_JiggleSoft:CONN_A7K8_CART_CARD_PHY J2
 U 1 1 5C654C7C
 P 9600 3450
 F 0 "J2" H 9600 4525 50  0000 C CNN
@@ -533,7 +533,7 @@ F 3 "" H 9600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JiggleSoft_Conn_Atari:CONN_512K_CART_SOCKET_PHY J1
+L Conn_Atari_JiggleSoft:CONN_512K_CART_SOCKET_PHY J1
 U 1 1 5C654EB3
 P 6150 3700
 F 0 "J1" H 6150 4775 50  0000 C CNN
@@ -809,6 +809,8 @@ Wire Notes Line
 	7500 1400 11100 1400
 Wire Notes Line
 	11100 1400 11100 5400
+Text Notes 8500 1600 0    50   ~ 0
+Atari 2600/7800 Cartridge Port Dumper
 Wire Bus Line
 	5200 4300 5200 5600
 Wire Bus Line
@@ -833,6 +835,4 @@ Wire Bus Line
 	8400 1800 8400 4800
 Wire Bus Line
 	2100 5300 4900 5300
-Text Notes 8500 1600 0    50   ~ 0
-Atari 2600/7800 Cartridge Port Dumper
 $EndSCHEMATC

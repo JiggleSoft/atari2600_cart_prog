@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:rom_cart-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -30,7 +31,7 @@ U 1 1 5C520D1A
 P 9500 4650
 F 0 "C1" H 9615 4696 50  0000 L CNN
 F 1 "0.1uF" H 9615 4605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9538 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9538 4500 50  0001 C CNN
 F 3 "~" H 9500 4650 50  0001 C CNN
 F 4 "20%" H 9500 4650 50  0001 C CNN "Tolerance"
 F 5 "16V" H 9500 4650 50  0001 C CNN "Voltage"
@@ -83,7 +84,7 @@ U 1 1 5C5216C7
 P 6200 5250
 F 0 "R1" V 5993 5250 50  0000 C CNN
 F 1 "10K" V 6084 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6130 5250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 5250 50  0001 C CNN
 F 3 "~" H 6200 5250 50  0001 C CNN
 	1    6200 5250
 	-1   0    0    1   
@@ -94,7 +95,7 @@ U 1 1 5C521E77
 P 9500 1300
 F 0 "SW1" H 9500 1767 50  0000 C CNN
 F 1 "SW_DIP_x04" H 9500 1676 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 9500 1300 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 9500 1300 50  0001 C CNN
 F 3 "" H 9500 1300 50  0001 C CNN
 	1    9500 1300
 	-1   0    0    1   
@@ -105,7 +106,7 @@ U 1 1 5C521F83
 P 7800 1400
 F 0 "SW2" H 7800 1867 50  0000 C CNN
 F 1 "SW_DIP_x04" H 7800 1776 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 7800 1400 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 7800 1400 50  0001 C CNN
 F 3 "" H 7800 1400 50  0001 C CNN
 	1    7800 1400
 	1    0    0    -1  
@@ -127,7 +128,7 @@ U 1 1 5C523719
 P 8050 2000
 F 0 "R2" V 7843 2000 50  0000 C CNN
 F 1 "R" V 7934 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7980 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7980 2000 50  0001 C CNN
 F 3 "~" H 8050 2000 50  0001 C CNN
 	1    8050 2000
 	0    1    1    0   
@@ -138,7 +139,7 @@ U 1 1 5C52382A
 P 7550 2000
 F 0 "D1" H 7541 2216 50  0000 C CNN
 F 1 "LED" H 7541 2125 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 2000 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 2000 50  0001 C CNN
 F 3 "~" H 7550 2000 50  0001 C CNN
 	1    7550 2000
 	1    0    0    -1  
@@ -642,7 +643,7 @@ U 1 1 5C63258F
 P 3350 900
 F 0 "J2" V 5515 981 50  0000 C CNN
 F 1 "CONN_512K_CART_CARD" V 5424 981 50  0000 C CNN
-F 2 "JiggleSoft_Conn_Atari:Atari_2600_Cartridge_2x12_PCB_Edge" H 3900 900 50  0001 C CNN
+F 2 "Conn_Atari_JiggleSoft:Atari_2600_Cartridge_2x12_PCB_Edge" H 3900 900 50  0001 C CNN
 F 3 "" H 3900 900 50  0001 C CNN
 	1    3350 900 
 	-1   0    0    1   
@@ -1125,7 +1126,7 @@ U 1 1 5C70BC2A
 P 3800 5000
 F 0 "U2" H 3600 5200 50  0000 L CNN
 F 1 "74HCT1G04" H 3850 4800 50  0000 L CNN
-F 2 "" H 3800 5250 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering" H 3800 5250 50  0001 C CNN
 F 3 "" H 3800 5250 50  0001 C CNN
 	1    3800 5000
 	1    0    0    -1  
@@ -1136,7 +1137,7 @@ U 1 1 5C620ECB
 P 1000 5050
 F 0 "J1" V 2600 5100 50  0000 R CNN
 F 1 "CONN_A2K6_CART_CARD" V 2500 5750 50  0000 R CNN
-F 2 "JiggleSoft_Conn_Atari:Atari_2600_Cartridge_2x12_PCB_Edge" H 1000 4000 50  0001 C CNN
+F 2 "Conn_Atari_JiggleSoft:Atari_2600_Cartridge_2x12_PCB_Edge" H 1000 4000 50  0001 C CNN
 F 3 "" H 1000 4000 50  0001 C CNN
 	1    1000 5050
 	0    1    -1   0   
@@ -1196,6 +1197,8 @@ Wire Bus Line
 	3550 6600 3950 6600
 Wire Bus Line
 	3400 6700 4100 6700
+Text Notes 5000 650  0    50   Italic 10
+TODO: Check position of interlock of readily available 36-pin card sockets\n
 Wire Bus Line
 	2800 1900 3300 1900
 Wire Bus Line
@@ -1214,6 +1217,4 @@ Wire Bus Line
 	6900 3600 6900 5200
 Wire Bus Line
 	1500 2000 2700 2000
-Text Notes 5000 650  0    50   Italic 10
-TODO: Check position of interlock of readily available 36-pin card sockets\n
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:rom_ram_pld_cart-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -7,15 +6,15 @@ encoding utf-8
 Sheet 1 1
 Title "Atari 2600 Budget ROM/RAM/Bank Switching Cartridge"
 Date ""
-Rev "0.0.0"
+Rev "0.0.1"
 Comp "JiggleSoft"
 Comment1 "https://github.com/JiggleSoft/atari2600_cart_prog"
-Comment2 "CC Attribution 3.0 Unported"
-Comment3 "http://creativecommons.org/licenses/by/3.0/"
+Comment2 "Creative Commons Attribution 4.0 International Licence"
+Comment3 "http://creativecommons.org/licenses/by/4.0/"
 Comment4 "Justin Lane (atari2600@jigglesoft.co.uk)"
 $EndDescr
 $Comp
-L JiggleSoft_Conn_Atari:CONN_A2K6_CART_CARD J?
+L Conn_Atari_JiggleSoft:CONN_A2K6_CART_CARD J?
 U 1 1 5C649CA3
 P 8700 3550
 F 0 "J?" V 7250 3600 50  0000 R CNN
@@ -26,7 +25,7 @@ F 3 "" H 8700 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L JiggleSoft_Conn_Atari:CONN_512K_CART_CARD J?
+L Conn_Atari_JiggleSoft:CONN_512K_CART_CARD J?
 U 1 1 5C649D19
 P 950 3900
 F 0 "J?" V 3115 3981 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 1500 3900 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Microchip_Parallel_Flash:SST39SF040-70-4C-NHE U?
+L Memory_Flash_Parallel_Microchip:SST39SF040-70-4C-NHE U?
 U 1 1 5C64A53E
 P 2100 3550
 F 0 "U?" H 2100 5017 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005022C.pdf" H 2100 3850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Microchip_CPLD:ATF1502AS(L)-44J U?
+L CPLD_Microchip:ATF1502AS(L)-44J U?
 U 1 1 5C64B059
 P 3800 3550
 F 0 "U?" H 3800 5017 50  0000 C CNN
