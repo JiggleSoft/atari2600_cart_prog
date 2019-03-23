@@ -1226,19 +1226,19 @@ Text Label 3650 3300 0    50   ~ 0
 D6
 Text Label 3650 3200 0    50   ~ 0
 D7
-Text Label 5300 4000 0    50   ~ 0
+Text Label 3500 5350 0    50   ~ 0
 ~CDET
 Text Label 4850 4200 0    50   ~ 0
 CE
 Text Label 4850 4100 0    50   ~ 0
 ~OE
-Text Label 5350 4500 0    50   ~ 0
+Text Label 5300 4750 0    50   ~ 0
 GND
-Text Label 5350 4600 0    50   ~ 0
+Text Label 3500 5650 0    50   ~ 0
 CART_PWR
 Text Label 4650 3250 0    50   ~ 0
 ~WE
-Text Label 5300 4100 0    50   ~ 0
+Text Label 3500 5450 0    50   ~ 0
 ~EXROM
 Text Label 4850 3250 0    50   ~ 0
 R~W
@@ -1331,6 +1331,8 @@ Wire Wire Line
 	1000 5000 1700 5000
 Wire Wire Line
 	1000 5100 1700 5100
+Text Notes 3350 2800 0    50   ~ 0
+DBG3 = PF6 = SW0
 Wire Bus Line
 	8700 3300 9700 3300
 Wire Bus Line
@@ -1367,4 +1369,26 @@ Wire Bus Line
 	6900 1700 6900 2800
 Wire Bus Line
 	2450 11250 5250 11250
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5C7BD78C
+P 3100 5750
+F 0 "JP?" H 3100 5962 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3100 5871 50  0000 C CNN
+F 2 "" H 3100 5750 50  0001 C CNN
+F 3 "~" H 3100 5750 50  0001 C CNN
+	1    3100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5C7BD80C
+P 3000 5850
+F 0 "JP?" H 3000 6062 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 3000 5971 50  0000 C CNN
+F 2 "" H 3000 5850 50  0001 C CNN
+F 3 "~" H 3000 5850 50  0001 C CNN
+	1    3000 5850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
